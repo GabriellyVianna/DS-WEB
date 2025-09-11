@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <title>Atividade 03 - Formulários - Exercicio 1 </title>
+</head>
+<body>
+    <h1>Formulário de Cadastro Simples </h1>
+    <form action="processa.php" method="get">
+        <label for="nome">Nome Completo:</label>
+        <input type="nome" maxlength="50" required>
+        <br>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" required>
+        <br>
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="senha" required>
+        <br>
+        <br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="1" max="120" required>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+     </form>
+</body>
+</html>

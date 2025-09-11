@@ -1,0 +1,37 @@
+​
+GABRIELLY DE OLIVEIRA VIANNA​
+/* ----- Comentário em CSS ----- */
+/* ----- Seletores de CSS ----- */
+
+/* ----- Seletor Universal -----
+
+*
+{
+    color:brown;
+}
+
+*/
+
+/* ----- Seletor Tag HTML ----- */
+p{
+    color:darkred;
+}
+
+/* ----- Seletor Class ----- */
+.melissa {
+    color:chocolate ;
+}
+
+/* ----- Seletor ID ----- */
+#tonta {
+    /* Codigo da cor RGB */
+    color:rgb(50, 100, 150);
+}
+
+
+body {
+    /* Código da cor hexadecimal */
+   
+    /* background-color: #ffebcd; */
+    /* background: linear-gradient(to top, yellow, red) */
+}
