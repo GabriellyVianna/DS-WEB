@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+
+.box2{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    background-color: rgb(193, 165, 219);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
