@@ -1,0 +1,125 @@
+
+.g{ 
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(156, 6, 6);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 0px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.a{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(185, 46, 46);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 50px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.b{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(160, 70, 70);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 100px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.r{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(151, 79, 79);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 150px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(154, 103, 103);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 200px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.e{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(163, 124, 124);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 250px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.l1{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(183, 153, 153);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 300px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+.l2{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(215, 156, 156);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 350px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.y{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(232, 188, 188);
+    padding: 15px;
+    border: 2px solid black;
+    margin: 400px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}

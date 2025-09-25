@@ -1,0 +1,14 @@
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color:black;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+}
+
+h2{
+    color: white;
+    text-align: center;
+    align-content: center;
+}
