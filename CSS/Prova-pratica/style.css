@@ -1,0 +1,85 @@
+body{
+    background-color: coral;
+    text-align: center;
+}
+.menufixo {
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    background: #8B0000; 
+    text-align: center; 
+    padding: 10px 0;
+    left: 0px;
+  }
+  .menufixo a {
+    color: #fff; 
+    margin: 0 15px; 
+    text-decoration: none;
+    font-weight: bold; 
+  }
+  .menufixo a:hover { 
+    color: rgb(222, 111, 89); }
+  body { padding-top: 50px; }
+
+img {
+    max-width: 80%;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+h1,a,li{
+    color: rgb(138, 65, 13);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p,h2{
+    color: rgb(251, 248, 74);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fotos{
+    text-align: left;
+    max-width: 50%;
+    border-radius: px;
+    margin: 10px auto;
+}
+
+.table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(130, 49, 34);
+    tr:nth-child(even) { 
+        background-color: rgb(251, 248, 74);
+        }
+        tr:nth-child(odd) { 
+        background-color: #e49d52;
+        }
+}
+
+.formulario{
+    text-align: center;
+    padding: auto;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+label{
+    color: rgb(130, 49, 34);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    border: solid  rgb(130, 49, 34);
+    background-color: #fbf84a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Mensagem{
+    color: rgb(130, 49, 34);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enviar{
+    color: rgb(130, 49, 34);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+

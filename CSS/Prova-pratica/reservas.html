@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reservas</title>
+</head>
+<body>
+    <div class="menufixo"><br>
+        <b><a href="index.html">Página inicial</a></b>
+        <b><a href="cardapio.html">Cardápio</a></b>
+        <b><a href="promoçoes.html">Promoções</a></b>
+        <b><a href="reservas.html">Reservas</a></b>
+     </div>
+
+     <br><br><br><br>
+     <h1>Faça a sua reserva</h1>
+
+    <form action="/submit" method="post">
+        <div class="formulario">
+        <label for="Nome">Nome:</label>
+        <input type="text"id="nome" name="nome" placeholder="digite seu nome" required>
+        <br><br><br><br>
+
+        <label for="Telefone">Telefone:</label>
+        <input type=“numberˮ id="Telefone" name="Telefone" placeholder="XXXXXXXXXXX" required>
+        <br><br><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+        <br><br><br><br>
+
+        <label for="Quantidade de pessoas">Quantidade de pessoas </label>
+        <input type="number" id="Quantidade" name="Quantidade" min="1" max="10" required>
+        <br><br><br><br>
+
+        <div class="Mensagem">
+        Mensagem:<br>
+        <textarea name="opiniao" rows="6" cols="50" maxlength="300" placeholder="Escreva aqui..." required></textarea>
+        <br><br><br><br> </div>
+
+        <div class="enviar">
+        <button type="submit">Enviar reserva</button>
+        </form>
+        <br><br><br><br> </div>
+        </div>
+</body>
+</html>
