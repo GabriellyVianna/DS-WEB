@@ -39,3 +39,10 @@ function trocarImagem2(){
     .setAttribute("src", "pintor.jpg")
 }
 
+var quadrado = document.getElementById("quadrado")
+
+document.addEventListener("mousemove", function(event){
+    quadrado.style.marginTop = event.clientY + "px"
+    quadrado.style.marginLeft = event.clientX + "px"
+});
+
