@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p id="resultado" style="font-size: 22px; font-weight: bold;"></p>
+
+     <div class="area" id="area">
+        <p class="mensagem" id="mensagem"></p>
+        <p class="posicao" id="posicao"></p>
+    <fieldset>
+        <form id="meuFormulario">
+            <h1>O que você era na vida passada?</h1>
+            <p>Teste de personalidade</p>
+
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" required>
+            <br><br>
+
+            <label for="lugar">Qual lugar mais te atrai: </label>
+            <select name="lugar" id="lugar">
+                <option value="castelo">Castelo</option>
+                <option value="batalha">Batalha</option>
+                <option value="praia">Praia</option>
+                <option value="floresta">Floresta</option>
+            </select>
+            <br><br>
+
+            <label for="objeto">Qual objeto mais te atrai: </label>
+            <select name="objeto" id="objeto">
+                <option value="canivete">Canivete</option>
+                <option value="vela">Vela</option>
+                <option value="flauta">Flauta</option>
+                <option value="mapa">Mapa</option>
+            </select>
+            <br><br>
+
+            <label for="poder">Escolha um super poder: </label>
+            <select name="poder" id="poder">
+                <option value="fogo">Fogo</option>
+                <option value="ar">Ar</option>
+                <option value="agua">Água</option>
+                <option value="terra">Terra</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="Ver meu passado!">
+        </form>
+    </fieldset>
+    </div>
+
+        <h1>Resultados possiveis</h1>
+    <img src="imagem1.jpg" id="foto">
+    <br><br>
+    <button onclick="trocarImagem1()">Imagem 1</button>
+    <button onclick="trocarImagem2()">Imagem 2</button>
+    <button onclick="mostrarScr()">mostrarScr no console</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+.area {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+form {
+    display: block;
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+input, select {
+    margin-top: 5px;
+}
+
+#foto {
+    width: 300px;
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+}
